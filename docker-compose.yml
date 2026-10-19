@@ -1,0 +1,20 @@
+# Optionnel : MySQL isolé pour le mémoire. Le service Windows MySQL80 occupe déjà le port 3306,
+# d'où le port hôte 3307 (ajuster MYSQL_PORT dans .env si cette option est retenue).
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: nhl-memoire-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./sql/schema:/docker-entrypoint-initdb.d:ro
+
+volumes:
+  mysql_data:

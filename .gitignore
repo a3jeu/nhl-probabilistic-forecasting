@@ -1,0 +1,51 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/scratch/*
+!notebooks/scratch/.gitkeep
+
+# Données (reproductibles via scripts/ — trop volumineuses et sous licences tierces)
+data/raw/**
+data/interim/**
+data/processed/**
+data/external/**
+!data/**/.gitkeep
+
+# Artefacts de modèles et logs
+models/*
+!models/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Dumps MySQL
+*.sql.gz
+dumps/
+
+# IDE / OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+AGENTS.md
