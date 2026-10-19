@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce code, merci de le citer comme suit."
+title: "Prédiction probabiliste des résultats de matchs de la LNH"
+type: software
+authors:
+  - family-names: "Gagné"
+    given-names: "Tommy"
+    affiliation: "Université du Québec à Trois-Rivières"
+repository-code: "https://github.com/a3jeu/nhl-probabilistic-forecasting"
+license: MIT
+version: 0.1.0
+date-released: 2026-10-19
+keywords:
+  - hockey
+  - NHL
+  - probabilistic forecasting
+  - calibration
+  - machine learning

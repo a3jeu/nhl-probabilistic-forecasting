@@ -88,3 +88,8 @@ MySQL peut être le service local existant ou le conteneur fourni :
 
 Les données ne sont pas redistribuées dans ce dépôt ; elles sont régénérées par les scripts de
 collecte, dans le respect des conditions d'utilisation de chaque source.
+
+## Licence et citation
+
+Code sous licence [MIT](LICENSE). Les données des sources tierces restent soumises à leurs
+propres conditions. Pour citer ce travail, voir [`CITATION.cff`](CITATION.cff).
