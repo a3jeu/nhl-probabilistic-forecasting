@@ -89,6 +89,10 @@ MySQL peut être le service local existant ou le conteneur fourni :
 Les données ne sont pas redistribuées dans ce dépôt ; elles sont régénérées par les scripts de
 collecte, dans le respect des conditions d'utilisation de chaque source.
 
+Collecte NHL (matchs, alignements, statistiques d'équipes, de patineurs et de gardiens par match,
+depuis 2005-2006) : `uv run python scripts/download_nhl_data.py --create-schema`. Détails dans
+[`docs/collecte_donnees_nhl.md`](docs/collecte_donnees_nhl.md).
+
 ## Licence et citation
 
 Code sous licence [MIT](LICENSE). Les données des sources tierces restent soumises à leurs
