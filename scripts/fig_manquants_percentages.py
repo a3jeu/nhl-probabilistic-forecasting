@@ -54,6 +54,7 @@ def main() -> None:
         width=0.75,
         color=MANQUANT,
         edgecolor="white",
+        hatch="///",  # distinguable des observations disponibles une fois imprimé en N&B
         lw=0.8,
         label="Observations manquantes",
     )
