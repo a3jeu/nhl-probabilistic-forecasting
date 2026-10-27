@@ -1,0 +1,4 @@
+Variable 1;Variable 2;Corrélation
+xGoalsFor;scoreVenueAdjustedxGoalsFor;0.992
+highDangerShotsFor;highDangerxGoalsFor;0.926
+corsiPercentage;fenwickPercentage;0.923
