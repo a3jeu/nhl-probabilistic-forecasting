@@ -1,7 +1,7 @@
 """Figure : dispersion du % de buts attendus sur la glace (MoneyPuck) selon le temps de glace.
 
 Une observation = un patineur lors d'un match, situation « all », saisons MoneyPuck disponibles
-(mêmes tranches que le § 2.3 de notebooks/01_eda/analyse_exploratoire.ipynb).
+(mêmes tranches que le § 2.3 de notebooks/01_donnees/analyse_exploratoire.ipynb).
 
     uv run python scripts/fig_xg_pct_temps_glace.py
 """

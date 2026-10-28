@@ -26,6 +26,7 @@ data/interim/**
 data/processed/**
 data/external/**
 !data/**/.gitkeep
+reports/map6009/**
 
 # Artefacts de modèles et logs
 models/*

@@ -1,6 +1,6 @@
 """Figure : variance cumulée expliquée par l'ACP des statistiques d'équipes MoneyPuck.
 
-Reprend la cellule « Dimension » du § 2.2 de notebooks/01_eda/analyse_exploratoire.ipynb :
+Reprend la cellule « Dimension » du § 2.2 de notebooks/01_donnees/analyse_exploratoire.ipynb :
 une observation = une équipe lors d'un match (saison régulière, situation « all ») ; toutes les
 variables numériques sans valeur manquante et non constantes ; ACP sur la matrice de corrélation
 (variables standardisées).

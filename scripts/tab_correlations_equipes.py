@@ -1,6 +1,6 @@
 """Tableau : paires de statistiques d'équipes MoneyPuck fortement corrélées.
 
-Reprend la cellule de corrélation du § 2.2 de notebooks/01_eda/analyse_exploratoire.ipynb :
+Reprend la cellule de corrélation du § 2.2 de notebooks/01_donnees/analyse_exploratoire.ipynb :
 16 variables sélectionnées, une observation = une équipe lors d'un match (saison régulière,
 situation « all »), corrélation de Spearman, |r| >= 0,8.
 

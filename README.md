@@ -34,11 +34,15 @@ Ce dépôt sert aussi aux travaux du cours MAP6009 (lectures dirigées, automne 
 │   ├── evaluation/      Log loss, Brier, calibration, recalibration, validation walk-forward
 │   └── visualization/   Fonctions de graphiques (style uniforme pour rapports et mémoire)
 ├── notebooks/           Exploration et présentation des résultats (numérotés, sans sorties)
-│   ├── 01_eda/
-│   ├── 02_representation/
-│   ├── 03_modeling/
-│   ├── 04_evaluation/
-│   └── scratch/         Brouillons non versionnés
+│   ├── 01_donnees/          Analyse du jeu de données (sources, cadrage, défis, EDA)
+│   ├── 02_methodes/         Description des méthodes, illustrées sur données NHL
+│   │   ├── modeles/         Une famille par notebook (logistique, Elo, bayésien, RF, GBM, RN, LSTM, SVM)
+│   │   └── evaluation/      Règles de score (log loss, Brier), calibration, validation temporelle
+│   ├── 03_experimentation/  Méthodologie et application (expérimentation préliminaire, puis mémoire)
+│   │   ├── representation/  Construction des variables (forme récente, momentum, ACP, agrégation)
+│   │   ├── modelisation/    Entraînement et ajustement des modèles
+│   │   └── evaluation/      Comparaison des modèles et analyse des résultats
+│   └── scratch/             Brouillons non versionnés
 ├── scripts/             Points d'entrée CLI (collecte, construction des jeux, entraînement)
 ├── tests/               unit/, integration/ (réseau ou MySQL), fixtures/
 ├── models/              Artefacts de modèles entraînés (non versionnés)
