@@ -99,5 +99,14 @@ depuis 2005-2006) : `uv run python scripts/download_nhl_data.py --create-schema`
 
 ## Licence et citation
 
-Code sous licence [MIT](LICENSE). Les données des sources tierces restent soumises à leurs
-propres conditions. Pour citer ce travail, voir [`CITATION.cff`](CITATION.cff).
+Usage non commercial uniquement.
+
+- **Code** : [PolyForm Noncommercial 1.0.0](LICENSE). Utilisation, modification et partage
+  permis pour la recherche, l'enseignement et l'usage personnel; tout usage commercial est
+  interdit sans autorisation écrite de l'auteur.
+- **Contenu** (mémoire, rapports, figures, documentation) :
+  [CC BY-NC 4.0](LICENSE-CONTENU.md).
+
+Les versions publiées avant le 2026-10-29 étaient distribuées sous licence MIT. Les données des
+sources tierces restent soumises à leurs propres conditions. Pour citer ce travail, voir
+[`CITATION.cff`](CITATION.cff).

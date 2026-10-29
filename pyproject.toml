@@ -3,7 +3,7 @@ name = "nhl-forecast"
 version = "0.1.0"
 description = "Prédiction probabiliste des résultats de matchs de la LNH : comparaison de modèles statistiques et d'apprentissage automatique (mémoire de maîtrise, UQTR)."
 readme = "README.md"
-license = "MIT"
+license = "PolyForm-Noncommercial-1.0.0"
 authors = [{ name = "Tommy Gagné" }]
 requires-python = ">=3.12,<3.13"
 dependencies = [
