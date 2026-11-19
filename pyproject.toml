@@ -35,11 +35,15 @@ dependencies = [
     "seaborn>=0.13",
     # Utilitaires
     "tqdm>=4.66",
+    "openpyxl>=3.1",
 ]
 
 [project.optional-dependencies]
 # Réseaux de neurones (MLP, LSTM) — installation lourde, à activer au besoin : uv sync --extra deep
-deep = ["torch>=2.4"]
+deep = [
+    "keras>=3.5",
+    "torch>=2.4",
+]
 # Approches bayésiennes : uv sync --extra bayes
 bayes = ["pymc>=5.16", "arviz>=0.19"]
 
