@@ -1,0 +1,227 @@
+﻿Date;Saison;gameId;Visiteur;Local;Prob. victoire locale;Prob. victoire visiteur;Score visiteur;Score local;Fin;Victoire locale
+2022-01-03;2021-22;2021020585;Edmonton Oilers;New York Rangers;0.513;0.487;1;4;REG;1
+2022-01-04;2021-22;2021020586;New Jersey Devils;Boston Bruins;0.698;0.302;3;5;REG;1
+2022-01-04;2021-22;2021020588;San Jose Sharks;Detroit Red Wings;0.508;0.492;2;6;REG;1
+2022-01-04;2021-22;2021020589;Calgary Flames;Florida Panthers;0.574;0.426;2;6;REG;1
+2022-01-04;2021-22;2021020590;Tampa Bay Lightning;Columbus Blue Jackets;0.358;0.642;7;2;REG;0
+2022-01-04;2021-22;2021020591;Colorado Avalanche;Chicago Blackhawks;0.32;0.68;4;3;OT;0
+2022-01-04;2021-22;2021020592;Winnipeg Jets;Arizona Coyotes;0.381;0.619;3;1;REG;0
+2022-01-04;2021-22;2021020593;Nashville Predators;Vegas Golden Knights;0.572;0.428;3;2;REG;0
+2022-01-04;2021-22;2021020594;Philadelphia Flyers;Anaheim Ducks;0.622;0.378;1;4;REG;1
+2022-01-05;2021-22;2021020596;Edmonton Oilers;Toronto Maple Leafs;0.647;0.353;2;4;REG;1
+2022-01-05;2021-22;2021020597;St. Louis Blues;Pittsburgh Penguins;0.588;0.412;3;5;REG;1
+2022-01-06;2021-22;2021020599;Minnesota Wild;Boston Bruins;0.61;0.39;3;2;REG;0
+2022-01-06;2021-22;2021020600;San Jose Sharks;Buffalo Sabres;0.508;0.492;3;2;REG;0
+2022-01-06;2021-22;2021020602;Calgary Flames;Tampa Bay Lightning;0.556;0.444;1;4;REG;1
+2022-01-06;2021-22;2021020603;Columbus Blue Jackets;New Jersey Devils;0.543;0.457;1;3;REG;1
+2022-01-06;2021-22;2021020604;Pittsburgh Penguins;Philadelphia Flyers;0.371;0.629;6;2;REG;0
+2022-01-06;2021-22;2021020605;Florida Panthers;Dallas Stars;0.437;0.563;5;5;SO;1
+2022-01-06;2021-22;2021020606;Winnipeg Jets;Colorado Avalanche;0.634;0.366;1;7;REG;1
+2022-01-06;2021-22;2021020607;Chicago Blackhawks;Arizona Coyotes;0.436;0.564;4;6;REG;1
+2022-01-06;2021-22;2021020608;New York Rangers;Vegas Golden Knights;0.624;0.376;1;5;REG;1
+2022-01-06;2021-22;2021020610;Nashville Predators;Los Angeles Kings;0.472;0.528;4;2;REG;0
+2022-01-07;2021-22;2021020612;Calgary Flames;Carolina Hurricanes;0.614;0.386;3;6;REG;1
+2022-01-07;2021-22;2021020613;Washington Capitals;St. Louis Blues;0.525;0.475;1;5;REG;1
+2022-01-08;2021-22;2021020615;Boston Bruins;Tampa Bay Lightning;0.609;0.391;5;2;REG;0
+2022-01-08;2021-22;2021020616;San Jose Sharks;Philadelphia Flyers;0.528;0.472;3;2;OT;0
+2022-01-08;2021-22;2021020617;Florida Panthers;Carolina Hurricanes;0.574;0.426;4;3;OT;0
+2022-01-08;2021-22;2021020618;New Jersey Devils;Columbus Blue Jackets;0.547;0.453;3;4;REG;1
+2022-01-08;2021-22;2021020619;Pittsburgh Penguins;Dallas Stars;0.439;0.561;2;3;REG;1
+2022-01-08;2021-22;2021020620;Washington Capitals;Minnesota Wild;0.477;0.523;2;2;SO;1
+2022-01-08;2021-22;2021020622;Toronto Maple Leafs;Colorado Avalanche;0.548;0.452;4;5;OT;1
+2022-01-08;2021-22;2021020624;Nashville Predators;Arizona Coyotes;0.353;0.647;4;2;REG;0
+2022-01-08;2021-22;2021020626;Chicago Blackhawks;Vegas Golden Knights;0.72;0.28;2;1;REG;0
+2022-01-08;2021-22;2021020627;New York Rangers;Anaheim Ducks;0.6;0.4;4;1;REG;0
+2022-01-08;2021-22;2021020628;Detroit Red Wings;Los Angeles Kings;0.642;0.358;0;4;REG;1
+2022-01-09;2021-22;2021020629;Dallas Stars;St. Louis Blues;0.619;0.381;1;2;REG;1
+2022-01-10;2021-22;2021020632;Boston Bruins;Washington Capitals;0.537;0.463;7;3;REG;0
+2022-01-10;2021-22;2021020634;Seattle Kraken;Colorado Avalanche;0.751;0.249;3;4;REG;1
+2022-01-10;2021-22;2021020636;New York Rangers;Los Angeles Kings;0.571;0.429;1;3;REG;1
+2022-01-11;2021-22;2021020637;Tampa Bay Lightning;Buffalo Sabres;0.327;0.673;6;1;REG;0
+2022-01-11;2021-22;2021020638;Vancouver Canucks;Florida Panthers;0.681;0.319;2;5;REG;1
+2022-01-11;2021-22;2021020640;Chicago Blackhawks;Columbus Blue Jackets;0.529;0.471;4;2;REG;0
+2022-01-11;2021-22;2021020641;Colorado Avalanche;Nashville Predators;0.453;0.547;4;5;OT;1
+2022-01-11;2021-22;2021020643;Toronto Maple Leafs;Vegas Golden Knights;0.542;0.458;3;3;SO;0
+2022-01-11;2021-22;2021020644;Pittsburgh Penguins;Anaheim Ducks;0.466;0.534;4;1;REG;0
+2022-01-11;2021-22;2021020645;Detroit Red Wings;San Jose Sharks;0.566;0.434;2;3;OT;1
+2022-01-12;2021-22;2021020647;Seattle Kraken;Dallas Stars;0.644;0.356;2;5;REG;1
+2022-01-12;2021-22;2021020649;Toronto Maple Leafs;Arizona Coyotes;0.345;0.655;1;2;REG;1
+2022-01-12;2021-22;2021021000;Montréal Canadiens;Boston Bruins;0.761;0.239;1;5;REG;1
+2022-01-13;2021-22;2021020650;Philadelphia Flyers;Boston Bruins;0.782;0.218;2;3;REG;1
+2022-01-13;2021-22;2021020651;Winnipeg Jets;Detroit Red Wings;0.421;0.579;3;0;REG;0
+2022-01-13;2021-22;2021020652;Vancouver Canucks;Tampa Bay Lightning;0.696;0.304;2;4;REG;1
+2022-01-13;2021-22;2021020653;New Jersey Devils;New York Islanders;0.629;0.371;2;3;REG;1
+2022-01-13;2021-22;2021020654;Columbus Blue Jackets;Carolina Hurricanes;0.712;0.288;6;0;REG;0
+2022-01-13;2021-22;2021020655;Montréal Canadiens;Chicago Blackhawks;0.686;0.314;2;3;OT;1
+2022-01-13;2021-22;2021020656;Seattle Kraken;St. Louis Blues;0.587;0.413;1;2;REG;1
+2022-01-13;2021-22;2021020657;Buffalo Sabres;Nashville Predators;0.761;0.239;4;1;REG;0
+2022-01-13;2021-22;2021020658;Ottawa Senators;Calgary Flames;0.718;0.282;4;1;REG;0
+2022-01-13;2021-22;2021020659;Pittsburgh Penguins;Los Angeles Kings;0.477;0.523;2;6;REG;1
+2022-01-13;2021-22;2021020660;New York Rangers;San Jose Sharks;0.518;0.482;3;0;REG;0
+2022-01-14;2021-22;2021020661;Dallas Stars;Florida Panthers;0.647;0.353;1;7;REG;1
+2022-01-14;2021-22;2021020662;Anaheim Ducks;Minnesota Wild;0.576;0.424;3;7;REG;1
+2022-01-14;2021-22;2021020663;Arizona Coyotes;Colorado Avalanche;0.777;0.223;3;3;SO;1
+2022-01-16;2021-22;2021020680;Vancouver Canucks;Washington Capitals;0.653;0.347;4;2;REG;0
+2022-01-17;2021-22;2021020682;Detroit Red Wings;Buffalo Sabres;0.503;0.497;3;2;OT;0
+2022-01-17;2021-22;2021020684;Philadelphia Flyers;New York Islanders;0.642;0.358;1;4;REG;1
+2022-01-17;2021-22;2021020685;Nashville Predators;St. Louis Blues;0.509;0.491;3;5;REG;1
+2022-01-17;2021-22;2021020686;Minnesota Wild;Colorado Avalanche;0.592;0.408;3;3;SO;1
+2022-01-17;2021-22;2021020687;Montréal Canadiens;Arizona Coyotes;0.549;0.451;2;5;REG;1
+2022-01-17;2021-22;2021020688;Pittsburgh Penguins;Vegas Golden Knights;0.569;0.431;5;3;REG;0
+2022-01-17;2021-22;2021020689;Los Angeles Kings;San Jose Sharks;0.512;0.488;2;6;REG;1
+2022-01-17;2021-22;2021020690;Chicago Blackhawks;Seattle Kraken;0.507;0.493;2;2;SO;1
+2022-01-18;2021-22;2021020691;Carolina Hurricanes;Boston Bruins;0.58;0.42;7;1;REG;0
+2022-01-18;2021-22;2021020692;Buffalo Sabres;Ottawa Senators;0.577;0.423;3;1;REG;0
+2022-01-18;2021-22;2021020695;Winnipeg Jets;Washington Capitals;0.588;0.412;3;4;OT;1
+2022-01-18;2021-22;2021020696;Vancouver Canucks;Nashville Predators;0.641;0.359;3;1;REG;0
+2022-01-18;2021-22;2021020697;Montréal Canadiens;Dallas Stars;0.704;0.296;5;3;REG;0
+2022-01-18;2021-22;2021020698;Florida Panthers;Calgary Flames;0.491;0.509;1;5;REG;1
+2022-01-18;2021-22;2021020700;Tampa Bay Lightning;Los Angeles Kings;0.434;0.566;6;4;REG;0
+2022-01-19;2021-22;2021020701;Arizona Coyotes;New Jersey Devils;0.623;0.377;4;1;REG;0
+2022-01-19;2021-22;2021020702;Toronto Maple Leafs;New York Rangers;0.413;0.587;3;6;REG;1
+2022-01-19;2021-22;2021020703;Colorado Avalanche;Anaheim Ducks;0.315;0.685;2;0;REG;0
+2022-01-20;2021-22;2021020704;Washington Capitals;Boston Bruins;0.608;0.392;3;4;REG;1
+2022-01-20;2021-22;2021020705;Dallas Stars;Buffalo Sabres;0.436;0.564;5;4;REG;0
+2022-01-20;2021-22;2021020706;Columbus Blue Jackets;Philadelphia Flyers;0.552;0.448;2;1;REG;0
+2022-01-20;2021-22;2021020707;Ottawa Senators;Pittsburgh Penguins;0.735;0.265;4;6;REG;1
+2022-01-20;2021-22;2021020708;Winnipeg Jets;Nashville Predators;0.567;0.433;2;5;REG;1
+2022-01-20;2021-22;2021020709;Florida Panthers;Edmonton Oilers;0.412;0.588;6;0;REG;0
+2022-01-20;2021-22;2021020710;Montréal Canadiens;Vegas Golden Knights;0.751;0.249;3;4;OT;1
+2022-01-20;2021-22;2021020711;Colorado Avalanche;Los Angeles Kings;0.368;0.632;4;1;REG;0
+2022-01-20;2021-22;2021020712;San Jose Sharks;Seattle Kraken;0.5;0.5;2;3;REG;1
+2022-01-21;2021-22;2021020713;Dallas Stars;Detroit Red Wings;0.401;0.599;5;4;OT;0
+2022-01-21;2021-22;2021020714;Arizona Coyotes;New York Islanders;0.633;0.367;0;4;REG;1
+2022-01-21;2021-22;2021020715;New York Rangers;Carolina Hurricanes;0.633;0.367;3;6;REG;1
+2022-01-21;2021-22;2021020716;Pittsburgh Penguins;Columbus Blue Jackets;0.392;0.608;5;2;REG;0
+2022-01-21;2021-22;2021020717;Minnesota Wild;Chicago Blackhawks;0.413;0.587;5;1;REG;0
+2022-01-21;2021-22;2021020718;Florida Panthers;Vancouver Canucks;0.398;0.602;1;1;SO;0
+2022-01-21;2021-22;2021020719;Tampa Bay Lightning;Anaheim Ducks;0.325;0.675;1;5;REG;1
+2022-01-21;2021-22;2021020720;St. Louis Blues;Seattle Kraken;0.376;0.624;5;0;REG;0
+2022-01-22;2021-22;2021020721;Winnipeg Jets;Boston Bruins;0.634;0.366;2;3;REG;1
+2022-01-22;2021-22;2021020722;Philadelphia Flyers;Buffalo Sabres;0.498;0.502;3;6;REG;1
+2022-01-22;2021-22;2021020724;Carolina Hurricanes;New Jersey Devils;0.351;0.649;4;7;REG;1
+2022-01-22;2021-22;2021020725;Arizona Coyotes;New York Rangers;0.65;0.35;3;7;REG;1
+2022-01-22;2021-22;2021020726;Ottawa Senators;Washington Capitals;0.662;0.338;2;3;OT;1
+2022-01-22;2021-22;2021020727;Detroit Red Wings;Nashville Predators;0.675;0.325;1;4;REG;1
+2022-01-22;2021-22;2021020728;Chicago Blackhawks;Minnesota Wild;0.621;0.379;3;4;OT;1
+2022-01-22;2021-22;2021020729;Montréal Canadiens;Colorado Avalanche;0.794;0.206;2;3;OT;1
+2022-01-22;2021-22;2021020730;Calgary Flames;Edmonton Oilers;0.494;0.506;3;5;REG;1
+2022-01-22;2021-22;2021020731;Tampa Bay Lightning;San Jose Sharks;0.363;0.637;7;1;REG;0
+2022-01-23;2021-22;2021020732;Los Angeles Kings;New Jersey Devils;0.45;0.55;3;2;REG;0
+2022-01-23;2021-22;2021020734;Ottawa Senators;Columbus Blue Jackets;0.551;0.449;2;1;REG;0
+2022-01-23;2021-22;2021020735;St. Louis Blues;Vancouver Canucks;0.419;0.581;3;1;REG;0
+2022-01-23;2021-22;2021020736;Florida Panthers;Seattle Kraken;0.342;0.658;3;5;REG;1
+2022-01-24;2021-22;2021020737;Anaheim Ducks;Boston Bruins;0.692;0.308;5;3;REG;0
+2022-01-24;2021-22;2021020738;Los Angeles Kings;New York Rangers;0.524;0.476;2;2;SO;1
+2022-01-24;2021-22;2021020739;Dallas Stars;Philadelphia Flyers;0.44;0.56;3;1;REG;0
+2022-01-24;2021-22;2021020740;Vegas Golden Knights;Washington Capitals;0.511;0.489;1;0;REG;0
+2022-01-24;2021-22;2021020741;Montréal Canadiens;Minnesota Wild;0.713;0.287;2;8;REG;1
+2022-01-24;2021-22;2021020742;Chicago Blackhawks;Colorado Avalanche;0.703;0.297;0;2;REG;1
+2022-01-24;2021-22;2021020743;St. Louis Blues;Calgary Flames;0.547;0.453;1;7;REG;1
+2022-01-25;2021-22;2021020744;Buffalo Sabres;Ottawa Senators;0.585;0.415;0;5;REG;1
+2022-01-25;2021-22;2021020745;Dallas Stars;New Jersey Devils;0.449;0.551;5;1;REG;0
+2022-01-25;2021-22;2021020746;Philadelphia Flyers;New York Islanders;0.637;0.363;3;4;REG;1
+2022-01-25;2021-22;2021020747;Arizona Coyotes;Pittsburgh Penguins;0.777;0.223;3;6;REG;1
+2022-01-25;2021-22;2021020748;Vegas Golden Knights;Carolina Hurricanes;0.606;0.394;3;4;OT;1
+2022-01-25;2021-22;2021020749;Florida Panthers;Winnipeg Jets;0.436;0.564;5;3;REG;0
+2022-01-25;2021-22;2021020750;Edmonton Oilers;Vancouver Canucks;0.468;0.532;3;2;OT;0
+2022-01-25;2021-22;2021020751;Nashville Predators;Seattle Kraken;0.399;0.601;4;2;REG;0
+2022-01-26;2021-22;2021020752;Anaheim Ducks;Toronto Maple Leafs;0.694;0.306;3;3;SO;1
+2022-01-26;2021-22;2021020753;Chicago Blackhawks;Detroit Red Wings;0.489;0.511;8;5;REG;0
+2022-01-26;2021-22;2021020754;San Jose Sharks;Washington Capitals;0.599;0.401;4;1;REG;0
+2022-01-26;2021-22;2021020755;Calgary Flames;Columbus Blue Jackets;0.393;0.607;6;0;REG;0
+2022-01-26;2021-22;2021020756;Boston Bruins;Colorado Avalanche;0.628;0.372;3;4;OT;1
+2022-01-27;2021-22;2021020757;Anaheim Ducks;Montréal Canadiens;0.406;0.594;5;4;REG;0
+2022-01-27;2021-22;2021020758;Carolina Hurricanes;Ottawa Senators;0.364;0.636;2;2;SO;0
+2022-01-27;2021-22;2021020759;New Jersey Devils;Tampa Bay Lightning;0.718;0.282;2;3;REG;1
+2022-01-27;2021-22;2021020760;Vegas Golden Knights;Florida Panthers;0.606;0.394;1;4;REG;1
+2022-01-27;2021-22;2021020761;Los Angeles Kings;New York Islanders;0.513;0.487;3;2;REG;0
+2022-01-27;2021-22;2021020762;Seattle Kraken;Pittsburgh Penguins;0.742;0.258;2;1;OT;0
+2022-01-27;2021-22;2021020763;New York Rangers;Columbus Blue Jackets;0.405;0.595;3;5;REG;1
+2022-01-27;2021-22;2021020764;Calgary Flames;St. Louis Blues;0.49;0.51;1;5;REG;1
+2022-01-27;2021-22;2021020765;Vancouver Canucks;Winnipeg Jets;0.61;0.39;5;1;REG;0
+2022-01-27;2021-22;2021020766;Nashville Predators;Edmonton Oilers;0.523;0.477;2;2;SO;1
+2022-01-28;2021-22;2021020767;Minnesota Wild;New York Rangers;0.436;0.564;3;2;REG;0
+2022-01-28;2021-22;2021020768;Detroit Red Wings;Pittsburgh Penguins;0.719;0.281;2;2;SO;0
+2022-01-28;2021-22;2021020769;Colorado Avalanche;Chicago Blackhawks;0.387;0.613;6;4;REG;0
+2022-01-28;2021-22;2021020770;Washington Capitals;Dallas Stars;0.526;0.474;5;0;REG;0
+2022-01-28;2021-22;2021020771;Boston Bruins;Arizona Coyotes;0.314;0.686;2;1;REG;0
+2022-01-29;2021-22;2021020772;Edmonton Oilers;Montréal Canadiens;0.353;0.647;7;2;REG;0
+2022-01-29;2021-22;2021020773;Anaheim Ducks;Ottawa Senators;0.475;0.525;2;1;REG;0
+2022-01-29;2021-22;2021020774;Toronto Maple Leafs;Detroit Red Wings;0.32;0.68;7;4;REG;0
+2022-01-29;2021-22;2021020775;Vegas Golden Knights;Tampa Bay Lightning;0.6;0.4;2;2;SO;0
+2022-01-29;2021-22;2021020776;San Jose Sharks;Florida Panthers;0.705;0.295;4;5;OT;1
+2022-01-29;2021-22;2021020778;Los Angeles Kings;Philadelphia Flyers;0.372;0.628;3;4;OT;1
+2022-01-29;2021-22;2021020779;New Jersey Devils;Carolina Hurricanes;0.724;0.276;1;2;REG;1
+2022-01-29;2021-22;2021020780;Winnipeg Jets;St. Louis Blues;0.597;0.403;4;1;REG;0
+2022-01-29;2021-22;2021020781;Vancouver Canucks;Calgary Flames;0.656;0.344;0;1;OT;1
+2022-01-29;2021-22;2021020782;Buffalo Sabres;Arizona Coyotes;0.506;0.494;3;1;REG;0
+2022-01-30;2021-22;2021020783;Columbus Blue Jackets;Montréal Canadiens;0.504;0.496;6;3;REG;0
+2022-01-30;2021-22;2021020784;Minnesota Wild;New York Islanders;0.383;0.617;4;3;REG;0
+2022-01-30;2021-22;2021020785;Seattle Kraken;New York Rangers;0.598;0.402;2;3;REG;1
+2022-01-30;2021-22;2021020786;Los Angeles Kings;Pittsburgh Penguins;0.638;0.362;4;3;REG;0
+2022-01-30;2021-22;2021020787;San Jose Sharks;Carolina Hurricanes;0.699;0.301;1;2;REG;1
+2022-01-30;2021-22;2021020789;Boston Bruins;Dallas Stars;0.473;0.527;1;6;REG;1
+2022-01-30;2021-22;2021020790;Buffalo Sabres;Colorado Avalanche;0.749;0.251;1;4;REG;1
+2022-01-31;2021-22;2021020791;Edmonton Oilers;Ottawa Senators;0.403;0.597;2;3;OT;1
+2022-01-31;2021-22;2021020792;Anaheim Ducks;Detroit Red Wings;0.462;0.538;1;2;OT;1
+2022-01-31;2021-22;2021020793;Florida Panthers;Columbus Blue Jackets;0.312;0.688;8;4;REG;0
+2022-01-31;2021-22;2021020794;Vancouver Canucks;Chicago Blackhawks;0.56;0.44;3;1;REG;0
+2022-02-01;2021-22;2021020795;Seattle Kraken;Boston Bruins;0.7;0.3;2;3;REG;1
+2022-02-01;2021-22;2021020797;San Jose Sharks;Tampa Bay Lightning;0.7;0.3;2;3;OT;1
+2022-02-01;2021-22;2021020798;Toronto Maple Leafs;New Jersey Devils;0.335;0.665;7;1;REG;0
+2022-02-01;2021-22;2021020799;Ottawa Senators;New York Islanders;0.672;0.328;1;4;REG;1
+2022-02-01;2021-22;2021020800;Florida Panthers;New York Rangers;0.406;0.594;2;5;REG;1
+2022-02-01;2021-22;2021020801;Winnipeg Jets;Philadelphia Flyers;0.423;0.577;1;3;REG;1
+2022-02-01;2021-22;2021020802;Washington Capitals;Pittsburgh Penguins;0.604;0.396;4;3;OT;0
+2022-02-01;2021-22;2021020803;Vancouver Canucks;Nashville Predators;0.672;0.328;2;4;REG;1
+2022-02-01;2021-22;2021020804;Calgary Flames;Dallas Stars;0.491;0.509;4;3;REG;0
+2022-02-01;2021-22;2021020805;Arizona Coyotes;Colorado Avalanche;0.793;0.207;2;2;SO;0
+2022-02-01;2021-22;2021020806;Buffalo Sabres;Vegas Golden Knights;0.759;0.241;2;5;REG;1
+2022-02-02;2021-22;2021020777;Seattle Kraken;New York Islanders;0.614;0.386;3;0;REG;0
+2022-02-02;2021-22;2021020807;Los Angeles Kings;Detroit Red Wings;0.392;0.608;5;3;REG;0
+2022-02-02;2021-22;2021020808;Edmonton Oilers;Washington Capitals;0.509;0.491;5;3;REG;0
+2022-02-02;2021-22;2021020809;Minnesota Wild;Chicago Blackhawks;0.362;0.638;5;0;REG;0
+2022-02-02;2021-22;2021020810;Calgary Flames;Arizona Coyotes;0.308;0.692;4;2;REG;0
+2022-02-08;2021-22;2021020487;Arizona Coyotes;Vancouver Canucks;0.668;0.332;1;5;REG;1
+2022-02-08;2021-22;2021020510;Carolina Hurricanes;Ottawa Senators;0.364;0.636;3;4;REG;1
+2022-02-08;2021-22;2021020523;Pittsburgh Penguins;Boston Bruins;0.559;0.441;4;2;REG;0
+2022-02-08;2021-22;2021020531;Minnesota Wild;Winnipeg Jets;0.394;0.606;0;2;REG;1
+2022-02-08;2021-22;2021020664;Vegas Golden Knights;Edmonton Oilers;0.497;0.503;4;0;REG;0
+2022-02-08;2021-22;2021020666;New Jersey Devils;Montréal Canadiens;0.498;0.502;7;1;REG;0
+2022-02-08;2021-22;2021021293;Columbus Blue Jackets;Washington Capitals;0.676;0.324;5;4;REG;0
+2022-02-09;2021-22;2021020503;Arizona Coyotes;Seattle Kraken;0.679;0.321;5;2;REG;0
+2022-02-09;2021-22;2021020530;Nashville Predators;Dallas Stars;0.501;0.499;3;4;REG;1
+2022-02-09;2021-22;2021020598;New York Islanders;Vancouver Canucks;0.56;0.44;6;3;REG;0
+2022-02-09;2021-22;2021020676;Vegas Golden Knights;Calgary Flames;0.607;0.393;0;6;REG;1
+2022-02-09;2021-22;2021020694;Detroit Red Wings;Philadelphia Flyers;0.546;0.454;6;3;REG;0
+2022-02-09;2021-22;2021020699;Chicago Blackhawks;Edmonton Oilers;0.615;0.385;4;1;REG;0
+2022-02-10;2021-22;2021020462;Toronto Maple Leafs;Calgary Flames;0.508;0.492;2;5;REG;1
+2022-02-10;2021-22;2021020477;Tampa Bay Lightning;Colorado Avalanche;0.544;0.456;2;3;REG;1
+2022-02-10;2021-22;2021020489;Columbus Blue Jackets;Buffalo Sabres;0.558;0.442;4;3;OT;0
+2022-02-10;2021-22;2021020494;Carolina Hurricanes;Boston Bruins;0.534;0.466;6;0;REG;0
+2022-02-10;2021-22;2021020529;New Jersey Devils;St. Louis Blues;0.646;0.354;7;4;REG;0
+2022-02-10;2021-22;2021020559;Pittsburgh Penguins;Ottawa Senators;0.422;0.578;2;0;REG;0
+2022-02-10;2021-22;2021020587;Washington Capitals;Montréal Canadiens;0.354;0.646;5;2;REG;0
+2022-02-11;2021-22;2021020506;Winnipeg Jets;Dallas Stars;0.587;0.413;3;4;OT;1
+2022-02-11;2021-22;2021020519;Tampa Bay Lightning;Arizona Coyotes;0.313;0.687;4;3;REG;0
+2022-02-11;2021-22;2021020623;New York Islanders;Edmonton Oilers;0.598;0.402;1;3;REG;1
+2022-02-11;2021-22;2021021033;Seattle Kraken;Anaheim Ducks;0.611;0.389;4;3;REG;0
+2022-02-12;2021-22;2021020445;Carolina Hurricanes;Minnesota Wild;0.518;0.482;2;3;REG;1
+2022-02-12;2021-22;2021020479;Toronto Maple Leafs;Vancouver Canucks;0.38;0.62;2;3;REG;1
+2022-02-12;2021-22;2021020499;Winnipeg Jets;Nashville Predators;0.668;0.332;5;2;REG;0
+2022-02-12;2021-22;2021020543;Boston Bruins;Ottawa Senators;0.427;0.573;2;0;REG;0
+2022-02-12;2021-22;2021020630;Columbus Blue Jackets;Montréal Canadiens;0.454;0.546;2;1;REG;0
+2022-02-12;2021-22;2021020642;New York Islanders;Calgary Flames;0.663;0.337;2;5;REG;1
+2022-02-12;2021-22;2021020788;Chicago Blackhawks;St. Louis Blues;0.598;0.402;1;5;REG;1
+2022-02-12;2021-22;2021020811;Philadelphia Flyers;Detroit Red Wings;0.659;0.341;2;4;REG;1
+2022-03-01;2021-22;2021020851;Carolina Hurricanes;Detroit Red Wings;0.4115;0.5885;3;4;OT;1
+2022-03-01;2021-22;2021020854;New Jersey Devils;Columbus Blue Jackets;0.3049;0.6951;3;4;REG;1
+2022-03-01;2021-22;2021020855;Calgary Flames;Minnesota Wild;0.3386;0.6614;5;1;REG;0
+2022-03-01;2021-22;2021020856;Montréal Canadiens;Winnipeg Jets;0.4349;0.5651;4;8;REG;1
+2022-03-01;2021-22;2021020857;New York Islanders;Colorado Avalanche;0.3013;0.6987;3;5;REG;1
+2022-03-01;2021-22;2021020858;San Jose Sharks;Vegas Golden Knights;0.3558;0.6442;1;3;REG;1
+2022-03-01;2021-22;2021020859;Boston Bruins;Anaheim Ducks;0.4306;0.5694;3;4;REG;1
+2022-03-02;2021-22;2021020860;Buffalo Sabres;Toronto Maple Leafs;0.4306;0.5694;5;1;REG;0
+2022-03-02;2021-22;2021020861;St. Louis Blues;New York Rangers;0.4306;0.5694;3;5;REG;1
+2022-03-02;2021-22;2021020862;Los Angeles Kings;Dallas Stars;0.4306;0.5694;3;4;REG;1

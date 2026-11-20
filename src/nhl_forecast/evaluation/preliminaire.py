@@ -1,8 +1,11 @@
 """Protocole d'évaluation commun aux expérimentations préliminaires.
 
-Validation croisée **chronologique** à 5 plis sur 6 saisons (fenêtre croissante) :
-le pli *k* entraîne sur les saisons 1 à *k* et teste sur la saison *k* + 1. La saison
-2020-21 sert donc uniquement à l'entraînement ; les saisons 2021-22 à 2025-26 sont testées.
+Validation **progressive** (walk-forward, fenêtre croissante) : chaque pli teste une saison et
+entraîne sur toutes les saisons antérieures. Protocole principal (``long``) : saisons 2009-10
+à 2025-26 ; plis 1 à 8 = **développement** (saisons testées 2016-17 à 2023-24), plis 9 et 10 =
+**évaluation finale** (2024-25 et 2025-26, réservées : à ne pas consulter pour les choix de
+modélisation). Ancien protocole (``NHL_EXP=base``) : 2020-21 à 2025-26, 5 plis, saisons
+testées 2021-22 à 2025-26, sans évaluation finale distincte.
 
 Les hyperparamètres sont choisis sur une validation **interne** : les 20 % les plus récents
 des matchs d'entraînement du pli (jamais sur la saison testée).
@@ -19,11 +22,18 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import accuracy_score, brier_score_loss, log_loss
 
 from nhl_forecast.config import PROJECT_ROOT
-from nhl_forecast.features.equipes import NOM_SAISON, SAISONS
+from nhl_forecast.features.equipes import (
+    NOM_SAISON,
+    SAISONS,
+    SAISONS_FINALES,
+    SAISONS_TESTEES,
+    SUFFIXE,
+)
 
-PRED_DIR = PROJECT_ROOT / "data" / "processed" / "experimentation"
-TABLE_DIR = PROJECT_ROOT / "reports" / "map6009" / "tables"
-FIG_DIR = PROJECT_ROOT / "reports" / "map6009" / "figures"
+PRED_DIR = PROJECT_ROOT / "data" / "processed" / f"experimentation{SUFFIXE}"
+TABLE_DIR = PROJECT_ROOT / "reports" / "map6009" / f"tables{SUFFIXE}"
+FIG_DIR = PROJECT_ROOT / "reports" / "map6009" / f"figures{SUFFIXE}"
+DEVELOPPEMENT, FINALE = "Développement", "Évaluation finale"
 GRAINE = 42
 REFERENCE = "Référence (taux local)"
 
@@ -52,18 +62,21 @@ class ACPKaiser(TransformerMixin, BaseEstimator):
 
 
 def plis_chronologiques(matchs: pd.DataFrame) -> list[dict]:
-    """Cinq plis à fenêtre croissante ; ``matchs`` doit être trié chronologiquement.
+    """Plis walk-forward (une saison testée par pli) ; ``matchs`` trié chronologiquement.
 
-    Chaque pli : ``{"pli", "saisons_entr", "saison_test", "entr", "test"}`` où ``entr`` et
-    ``test`` sont des tableaux d'indices positionnels.
+    Chaque pli : ``{"pli", "phase", "saisons_entr", "saison_test", "entr", "test"}`` où
+    ``entr`` et ``test`` sont des tableaux d'indices positionnels et ``phase`` vaut
+    ``DEVELOPPEMENT`` ou ``FINALE``.
     """
+    saison = matchs["saison"].to_numpy()
     plis = []
-    for k, test in enumerate(SAISONS[1:], start=1):
-        entr = np.flatnonzero(matchs["saison"].to_numpy() < test)
-        tst = np.flatnonzero(matchs["saison"].to_numpy() == test)
+    for k, test in enumerate(SAISONS_TESTEES, start=1):
+        entr = np.flatnonzero(saison < test)
+        tst = np.flatnonzero(saison == test)
         assert matchs["date"].iloc[entr].max() < matchs["date"].iloc[tst].min()  # pas de fuite
-        plis.append({"pli": k, "saisons_entr": SAISONS[:k], "saison_test": test, "entr": entr,
-                     "test": tst})  # fmt: skip
+        plis.append({"pli": k, "phase": FINALE if test in SAISONS_FINALES else DEVELOPPEMENT,
+                     "saisons_entr": [s for s in SAISONS if s < test], "saison_test": test,
+                     "entr": entr, "test": tst})  # fmt: skip
     return plis
 
 
@@ -80,6 +93,7 @@ def tableau_plis(matchs: pd.DataFrame) -> pd.DataFrame:
         ajust, val = separation_interne(p["entr"])
         lignes.append({
             "Pli": p["pli"],
+            "Phase": p["phase"],
             "Saisons d'entraînement": f"{NOM_SAISON[p['saisons_entr'][0]]} à "
                                       f"{NOM_SAISON[p['saisons_entr'][-1]]}",
             "Saison testée": NOM_SAISON[p["saison_test"]],
@@ -104,27 +118,36 @@ def predictions(matchs: pd.DataFrame, pli: dict, p: np.ndarray, modele: str) -> 
     """Prédictions d'un pli, au format commun (une ligne par match testé)."""
     t = matchs.iloc[pli["test"]]
     return pd.DataFrame({
-        "modele": modele, "pli": pli["pli"], "saison": t["saison"].map(NOM_SAISON).to_numpy(),
+        "modele": modele, "pli": pli["pli"], "phase": pli["phase"],
+        "saison": t["saison"].map(NOM_SAISON).to_numpy(),
         "gameId": t["gameId"].to_numpy(), "y": t["victoire_locale"].to_numpy(), "p": p,
     })  # fmt: skip
+
+
+def _avec_phase(preds: pd.DataFrame) -> pd.DataFrame:
+    """Anciennes prédictions sans colonne ``phase`` : toutes en développement."""
+    return preds if "phase" in preds else preds.assign(phase=DEVELOPPEMENT)
 
 
 def resultats_par_pli(preds: pd.DataFrame) -> pd.DataFrame:
     """Métriques par pli (saison testée) pour chaque modèle de ``preds``."""
     lignes = [
-        {"Modèle": m, "Pli": k, "Saison testée": s, "n": len(g), **metriques(g["y"], g["p"])}
-        for (m, k, s), g in preds.groupby(["modele", "pli", "saison"], sort=False)
-    ]
+        {"Modèle": m, "Pli": k, "Phase": ph, "Saison testée": s, "n": len(g),
+         **metriques(g["y"], g["p"])}
+        for (m, k, ph, s), g in _avec_phase(preds).groupby(["modele", "pli", "phase", "saison"],
+                                                           sort=False)
+    ]  # fmt: skip
     return pd.DataFrame(lignes)
 
 
 def resume(preds: pd.DataFrame) -> pd.DataFrame:
-    """Moyenne ± écart-type des métriques sur les 5 plis, par modèle."""
+    """Moyenne ± écart-type des métriques sur les saisons testées, par modèle et par phase."""
     par_pli = resultats_par_pli(preds)
     cols = ["Log loss", "Brier", "Accuracy"]
-    moy = par_pli.groupby("Modèle", sort=False)[cols].mean()
-    et = par_pli.groupby("Modèle", sort=False)[cols].std()
+    g = par_pli.groupby(["Modèle", "Phase"], sort=False)[cols]
+    moy, et, n = g.mean(), g.std(), g.size()
     out = pd.DataFrame(index=moy.index)
+    out["Saisons"] = n
     for c in cols:
         out[c] = [f"{m:.4f} ± {s:.4f}" for m, s in zip(moy[c], et[c], strict=True)]
     return out.reset_index()

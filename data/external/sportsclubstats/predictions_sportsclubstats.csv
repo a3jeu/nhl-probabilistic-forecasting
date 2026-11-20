@@ -1,0 +1,128 @@
+﻿Date;Saison;gameId;Visiteur;Local;Prob. victoire locale;Prob. victoire visiteur;Score visiteur;Score local;Fin;Victoire locale
+2019-01-06;2018-19;2018020645;New York Rangers;Arizona Coyotes;0.5287;0.4713;0;5;REG;1
+2019-01-06;2018-19;2018020646;New Jersey Devils;Vegas Golden Knights;0.5949;0.4051;2;3;REG;1
+2019-01-06;2018-19;2018020647;Carolina Hurricanes;Ottawa Senators;0.4391;0.5609;5;4;REG;0
+2019-01-06;2018-19;2018020648;Washington Capitals;Detroit Red Wings;0.3738;0.6262;3;2;REG;0
+2019-01-06;2018-19;2018020649;Dallas Stars;Winnipeg Jets;0.5539;0.4461;1;5;REG;1
+2019-01-06;2018-19;2018020650;Chicago Blackhawks;Pittsburgh Penguins;0.679;0.321;5;3;REG;0
+2019-01-06;2018-19;2018020651;Edmonton Oilers;Anaheim Ducks;0.4813;0.5187;4;0;REG;0
+2019-01-13;2018-19;2018020699;Nashville Predators;Carolina Hurricanes;0.398;0.602;3;6;REG;1
+2019-01-13;2018-19;2018020700;New York Rangers;Columbus Blue Jackets;0.6249;0.3751;5;7;REG;1
+2019-01-13;2018-19;2018020701;Anaheim Ducks;Winnipeg Jets;0.6699;0.3301;3;4;OT;1
+2019-01-13;2018-19;2018020702;Tampa Bay Lightning;New York Islanders;0.395;0.605;1;5;REG;1
+2019-01-13;2018-19;2018020703;Florida Panthers;Vancouver Canucks;0.5075;0.4925;1;5;REG;1
+2019-01-13;2018-19;2018020704;Arizona Coyotes;Calgary Flames;0.6374;0.3626;1;7;REG;1
+2019-01-21;2018-19;2018020756;Nashville Predators;Colorado Avalanche;0.4801;0.5199;4;1;REG;0
+2019-01-21;2018-19;2018020757;Minnesota Wild;Vegas Golden Knights;0.5775;0.4225;4;2;REG;0
+2019-01-21;2018-19;2018020758;San Jose Sharks;Florida Panthers;0.3841;0.6159;2;6;REG;1
+2019-01-21;2018-19;2018020759;St. Louis Blues;Los Angeles Kings;0.4278;0.5722;3;4;REG;1
+2019-01-28;2018-19;2018020771;Winnipeg Jets;Philadelphia Flyers;0.331;0.669;1;3;REG;1
+2019-01-28;2018-19;2018020772;New Jersey Devils;Pittsburgh Penguins;0.6305;0.3695;6;3;REG;0
+2019-01-31;2018-19;2018020778;Philadelphia Flyers;Boston Bruins;0.6247;0.3753;3;2;OT;0
+2019-01-31;2018-19;2018020779;New York Rangers;New Jersey Devils;0.5318;0.4682;4;3;REG;0
+2019-01-31;2018-19;2018020780;Columbus Blue Jackets;Winnipeg Jets;0.5684;0.4316;3;4;REG;1
+2019-02-02;2018-19;2018020789;Edmonton Oilers;Philadelphia Flyers;0.4913;0.5087;4;5;OT;1
+2019-02-02;2018-19;2018020790;New Jersey Devils;Montréal Canadiens;0.5732;0.4268;3;2;OT;0
+2019-02-02;2018-19;2018020791;Pittsburgh Penguins;Toronto Maple Leafs;0.5323;0.4677;2;3;REG;1
+2019-02-02;2018-19;2018020792;Detroit Red Wings;Ottawa Senators;0.4832;0.5168;2;0;REG;0
+2019-02-02;2018-19;2018020793;Vegas Golden Knights;Florida Panthers;0.4162;0.5838;1;3;REG;1
+2019-02-02;2018-19;2018020794;Los Angeles Kings;New York Islanders;0.6862;0.3138;2;4;REG;1
+2019-02-02;2018-19;2018020795;Tampa Bay Lightning;New York Rangers;0.3003;0.6997;3;2;REG;0
+2019-02-02;2018-19;2018020796;St. Louis Blues;Columbus Blue Jackets;0.5504;0.4496;4;2;REG;0
+2019-02-02;2018-19;2018020797;Anaheim Ducks;Winnipeg Jets;0.6626;0.3374;3;9;REG;1
+2019-02-02;2018-19;2018020798;Dallas Stars;Nashville Predators;0.5829;0.4171;3;1;REG;0
+2019-02-02;2018-19;2018020799;Chicago Blackhawks;Minnesota Wild;0.5763;0.4237;4;3;OT;0
+2019-02-02;2018-19;2018020800;Vancouver Canucks;Colorado Avalanche;0.5603;0.4397;5;1;REG;0
+2019-02-02;2018-19;2018020801;Arizona Coyotes;San Jose Sharks;0.596;0.404;2;3;OT;1
+2019-02-03;2018-19;2018020802;Boston Bruins;Washington Capitals;0.4894;0.5106;1;0;REG;0
+2019-02-03;2018-19;2018020803;Edmonton Oilers;Montréal Canadiens;0.5752;0.4248;3;4;OT;1
+2019-02-03;2018-19;2018020804;Calgary Flames;Carolina Hurricanes;0.3745;0.6255;4;3;REG;0
+2019-02-04;2018-19;2018020805;Anaheim Ducks;Toronto Maple Leafs;0.7013;0.2987;1;6;REG;1
+2019-02-04;2018-19;2018020806;Los Angeles Kings;New York Rangers;0.5373;0.4627;4;3;OT;0
+2019-02-04;2018-19;2018020807;Vancouver Canucks;Philadelphia Flyers;0.4554;0.5446;1;2;REG;1
+2019-02-04;2018-19;2018020808;Arizona Coyotes;Dallas Stars;0.5494;0.4506;4;5;REG;1
+2019-02-05;2018-19;2018020809;New York Islanders;Boston Bruins;0.4595;0.5405;1;3;REG;1
+2019-02-05;2018-19;2018020810;Minnesota Wild;Buffalo Sabres;0.4855;0.5145;4;4;SO;1
+2019-02-05;2018-19;2018020811;St. Louis Blues;Florida Panthers;0.4795;0.5205;3;2;REG;0
+2019-02-05;2018-19;2018020812;Los Angeles Kings;New Jersey Devils;0.5593;0.4407;5;1;REG;0
+2019-02-05;2018-19;2018020813;Carolina Hurricanes;Pittsburgh Penguins;0.5824;0.4176;4;0;REG;0
+2019-02-05;2018-19;2018020814;Vancouver Canucks;Washington Capitals;0.5494;0.4506;2;3;REG;1
+2019-02-05;2018-19;2018020815;Anaheim Ducks;Montréal Canadiens;0.64;0.36;1;4;REG;1
+2019-02-05;2018-19;2018020816;Vegas Golden Knights;Tampa Bay Lightning;0.6124;0.3876;2;2;SO;0
+2019-02-05;2018-19;2018020817;Arizona Coyotes;Nashville Predators;0.6156;0.3844;2;5;REG;1
+2019-02-05;2018-19;2018020818;San Jose Sharks;Winnipeg Jets;0.5458;0.4542;3;2;OT;0
+2019-02-05;2018-19;2018020819;Columbus Blue Jackets;Colorado Avalanche;0.5025;0.4975;6;3;REG;0
+2019-02-05;2018-19;2018020820;Chicago Blackhawks;Edmonton Oilers;0.5146;0.4854;6;2;REG;0
+2019-02-06;2018-19;2018020821;Ottawa Senators;Toronto Maple Leafs;0.6891;0.3109;4;5;REG;1
+2019-02-06;2018-19;2018020822;Boston Bruins;New York Rangers;0.3805;0.6195;3;3;SO;1
+2019-02-07;2018-19;2018020823;Carolina Hurricanes;Buffalo Sabres;0.4845;0.5155;6;5;OT;0
+2019-02-07;2018-19;2018020824;Pittsburgh Penguins;Florida Panthers;0.4103;0.5897;2;3;OT;1
+2019-02-07;2018-19;2018020825;New York Islanders;New Jersey Devils;0.366;0.634;1;1;SO;0
+2019-02-07;2018-19;2018020826;Los Angeles Kings;Philadelphia Flyers;0.5309;0.4691;2;2;SO;0
+2019-02-07;2018-19;2018020827;Colorado Avalanche;Washington Capitals;0.5235;0.4765;3;4;OT;1
+2019-02-07;2018-19;2018020828;Winnipeg Jets;Montréal Canadiens;0.4274;0.5726;2;5;REG;1
+2019-02-07;2018-19;2018020829;Anaheim Ducks;Ottawa Senators;0.5491;0.4509;0;4;REG;1
+2019-02-07;2018-19;2018020830;Vegas Golden Knights;Detroit Red Wings;0.4172;0.5828;4;3;REG;0
+2019-02-07;2018-19;2018020831;St. Louis Blues;Tampa Bay Lightning;0.6572;0.3428;1;0;OT;0
+2019-02-07;2018-19;2018020832;Dallas Stars;Nashville Predators;0.5751;0.4249;2;3;OT;1
+2019-02-07;2018-19;2018020833;Edmonton Oilers;Minnesota Wild;0.5714;0.4286;4;1;REG;0
+2019-02-07;2018-19;2018020834;Vancouver Canucks;Chicago Blackhawks;0.4704;0.5296;3;4;OT;1
+2019-02-07;2018-19;2018020835;San Jose Sharks;Calgary Flames;0.5638;0.4362;5;2;REG;0
+2019-02-07;2018-19;2018020836;Columbus Blue Jackets;Arizona Coyotes;0.4388;0.5612;4;2;REG;0
+2019-02-08;2018-19;2018020837;Carolina Hurricanes;New York Rangers;0.4297;0.5703;3;0;REG;0
+2019-02-09;2018-19;2018020838;Los Angeles Kings;Boston Bruins;0.641;0.359;4;5;OT;1
+2019-02-09;2018-19;2018020839;Detroit Red Wings;Buffalo Sabres;0.5346;0.4654;1;3;REG;1
+2019-02-09;2018-19;2018020840;Minnesota Wild;New Jersey Devils;0.4584;0.5416;4;2;REG;0
+2019-02-09;2018-19;2018020841;Colorado Avalanche;New York Islanders;0.5849;0.4151;3;4;OT;1
+2019-02-09;2018-19;2018020842;Anaheim Ducks;Philadelphia Flyers;0.5806;0.4194;2;6;REG;1
+2019-02-09;2018-19;2018020843;Winnipeg Jets;Ottawa Senators;0.3437;0.6563;2;5;REG;1
+2019-02-09;2018-19;2018020844;Nashville Predators;St. Louis Blues;0.4105;0.5895;2;3;REG;1
+2019-02-09;2018-19;2018020845;Dallas Stars;Arizona Coyotes;0.4467;0.5533;2;3;REG;1
+2019-02-09;2018-19;2018020846;Toronto Maple Leafs;Montréal Canadiens;0.4271;0.5729;4;3;OT;0
+2019-02-09;2018-19;2018020847;Pittsburgh Penguins;Tampa Bay Lightning;0.5956;0.4044;4;5;REG;1
+2019-02-09;2018-19;2018020848;Florida Panthers;Washington Capitals;0.5722;0.4278;5;4;OT;0
+2019-02-09;2018-19;2018020849;San Jose Sharks;Edmonton Oilers;0.3737;0.6263;5;2;REG;0
+2019-02-09;2018-19;2018020850;Calgary Flames;Vancouver Canucks;0.3676;0.6324;3;3;SO;1
+2019-02-09;2018-19;2018020851;Columbus Blue Jackets;Vegas Golden Knights;0.5135;0.4865;4;3;REG;0
+2019-02-15;2018-19;2018020888;New York Rangers;Buffalo Sabres;0.5621;0.4379;6;2;REG;0
+2019-02-15;2018-19;2018020890;New Jersey Devils;Minnesota Wild;0.6544;0.3456;5;4;OT;0
+2019-02-15;2018-19;2018020891;Boston Bruins;Anaheim Ducks;0.5724;0.4276;3;0;REG;0
+2019-02-16;2018-19;2018020892;Detroit Red Wings;Philadelphia Flyers;0.5903;0.4097;5;6;OT;1
+2019-02-16;2018-19;2018020895;Montréal Canadiens;Tampa Bay Lightning;0.6396;0.3604;0;3;REG;1
+2019-02-16;2018-19;2018020896;Edmonton Oilers;New York Islanders;0.585;0.415;2;5;REG;1
+2019-02-16;2018-19;2018020897;Ottawa Senators;Winnipeg Jets;0.6974;0.3026;4;3;OT;0
+2019-02-16;2018-19;2018020899;Dallas Stars;Carolina Hurricanes;0.5427;0.4573;0;3;REG;1
+2019-02-16;2018-19;2018020901;Nashville Predators;Vegas Golden Knights;0.5102;0.4898;1;5;REG;1
+2019-02-16;2018-19;2018020903;Boston Bruins;Los Angeles Kings;0.4631;0.5369;4;2;REG;0
+2019-02-17;2018-19;2018020906;Buffalo Sabres;New Jersey Devils;0.5236;0.4764;1;4;REG;1
+2019-02-17;2018-19;2018020909;Washington Capitals;Anaheim Ducks;0.4645;0.5355;2;5;REG;1
+2019-02-18;2018-19;2018020910;Arizona Coyotes;Calgary Flames;0.657;0.343;2;5;REG;1
+2019-02-18;2018-19;2018020911;Tampa Bay Lightning;Columbus Blue Jackets;0.399;0.601;5;1;REG;0
+2019-02-18;2018-19;2018020912;Ottawa Senators;Chicago Blackhawks;0.623;0.377;7;8;REG;1
+2019-02-18;2018-19;2018020913;Vegas Golden Knights;Colorado Avalanche;0.528;0.472;0;3;REG;1
+2019-02-18;2018-19;2018020914;Washington Capitals;Los Angeles Kings;0.478;0.522;3;2;REG;0
+2019-02-18;2018-19;2018020915;Boston Bruins;San Jose Sharks;0.606;0.394;6;5;OT;0
+2019-02-19;2018-19;2018020916;Buffalo Sabres;Florida Panthers;0.575;0.425;2;4;REG;1
+2019-02-19;2018-19;2018020917;Pittsburgh Penguins;New Jersey Devils;0.337;0.663;4;3;REG;0
+2019-02-19;2018-19;2018020918;Tampa Bay Lightning;Philadelphia Flyers;0.486;0.514;5;2;REG;0
+2019-02-19;2018-19;2018020919;New York Rangers;Carolina Hurricanes;0.723;0.277;2;1;REG;0
+2019-02-19;2018-19;2018020920;Columbus Blue Jackets;Montréal Canadiens;0.493;0.507;2;3;REG;1
+2019-02-19;2018-19;2018020921;Toronto Maple Leafs;St. Louis Blues;0.421;0.579;2;3;OT;1
+2019-02-19;2018-19;2018020922;Anaheim Ducks;Minnesota Wild;0.653;0.347;4;0;REG;0
+2019-02-19;2018-19;2018020923;Nashville Predators;Dallas Stars;0.419;0.581;5;3;REG;0
+2019-02-19;2018-19;2018020924;Arizona Coyotes;Edmonton Oilers;0.61;0.39;2;2;SO;0
+2019-02-20;2018-19;2018020925;Chicago Blackhawks;Detroit Red Wings;0.498;0.502;5;4;OT;0
+2019-02-20;2018-19;2018020926;Winnipeg Jets;Colorado Avalanche;0.503;0.497;1;7;REG;1
+2019-02-20;2018-19;2018020927;New York Islanders;Calgary Flames;0.637;0.363;2;4;REG;1
+2019-02-20;2018-19;2018020928;Boston Bruins;Vegas Golden Knights;0.576;0.424;2;2;SO;0
+2019-02-21;2018-19;2018020929;Washington Capitals;Toronto Maple Leafs;0.639;0.361;3;2;REG;0
+2019-02-21;2018-19;2018020930;Carolina Hurricanes;Florida Panthers;0.487;0.513;4;3;REG;0
+2019-02-21;2018-19;2018020931;Ottawa Senators;New Jersey Devils;0.511;0.489;0;4;REG;1
+2019-02-21;2018-19;2018020932;Minnesota Wild;New York Rangers;0.487;0.513;4;1;REG;0
+2019-02-21;2018-19;2018020933;San Jose Sharks;Pittsburgh Penguins;0.528;0.472;4;0;REG;0
+2019-02-21;2018-19;2018020934;Philadelphia Flyers;Montréal Canadiens;0.524;0.476;1;5;REG;1
+2019-02-21;2018-19;2018020935;Buffalo Sabres;Tampa Bay Lightning;0.706;0.294;1;1;SO;1
+2019-02-21;2018-19;2018020936;Los Angeles Kings;Nashville Predators;0.698;0.302;1;2;REG;1
+2019-02-21;2018-19;2018020937;St. Louis Blues;Dallas Stars;0.499;0.501;2;5;REG;1
+2019-02-21;2018-19;2018020938;New York Islanders;Edmonton Oilers;0.565;0.435;3;4;OT;1
+2019-02-21;2018-19;2018020939;Arizona Coyotes;Vancouver Canucks;0.516;0.484;3;2;OT;0

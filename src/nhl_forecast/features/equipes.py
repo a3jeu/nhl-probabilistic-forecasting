@@ -1,4 +1,4 @@
-"""Jeu de données d'équipes pour les expérimentations préliminaires (saisons 2020-21 à 2025-26).
+"""Jeu de données d'équipes pour les expérimentations préliminaires (voir ``NHL_EXP`` ci-dessous).
 
 Cinq sources, statistiques d'**équipes** seulement, **toutes les colonnes numériques** :
 
@@ -18,19 +18,42 @@ valeurs du match lui-même ne servent qu'aux matchs suivants et à la cible.
     from nhl_forecast.features.equipes import charger_equipes, construire_matchs
     eq = charger_equipes()              # une équipe-match par ligne (valeurs du match)
     matchs = construire_matchs(eq)      # un match par ligne, variables d'avant-match d_*
+
+Configuration (variable d'environnement ``NHL_EXP``, à définir **avant** l'import) :
+
+- ``long`` (défaut, protocole principal) : saisons 2009-10 à 2025-26 (2009-10 est la première
+  saison où les cinq sources sont complètes) ; walk-forward sur 2016-17 à 2023-24
+  (développement), puis 2024-25 et 2025-26 (évaluation finale) ;
+- ``base`` (ancien protocole, rapport préliminaire 1) : saisons 2020-21 à 2025-26, une saison
+  testée par pli. Cache et sorties (tableaux, figures, prédictions) suffixés ``_base``.
 """
 
 from __future__ import annotations
+
+import os
 
 import numpy as np
 import pandas as pd
 
 from nhl_forecast.config import PROJECT_ROOT
 
-SAISONS = [2020, 2021, 2022, 2023, 2024, 2025]  # année de début (2020 = 2020-21)
+# saisons : années de début (2020 = 2020-21) ; testees : une saison testée par pli
+# (walk-forward) ; finales : saisons testées réservées à l'évaluation finale.
+CONFIGS = {
+    "base": {"saisons": range(2020, 2026), "testees": range(2021, 2026), "finales": ()},
+    "long": {"saisons": range(2009, 2026), "testees": range(2016, 2026), "finales": (2024, 2025)},
+}
+PRINCIPAL = "long"
+EXP = os.environ.get("NHL_EXP", PRINCIPAL)
+if EXP not in CONFIGS:
+    raise ValueError(f"NHL_EXP={EXP!r} inconnu ; choix : {', '.join(CONFIGS)}")
+SAISONS = list(CONFIGS[EXP]["saisons"])
+SAISONS_TESTEES = list(CONFIGS[EXP]["testees"])
+SAISONS_FINALES = list(CONFIGS[EXP]["finales"])
+SUFFIXE = "" if EXP == PRINCIPAL else f"_{EXP}"  # noms des caches et dossiers de sortie
 NOM_SAISON = {s: f"{s}-{str(s + 1)[2:]}" for s in SAISONS}
 MP_TEAMS = PROJECT_ROOT / "data" / "raw" / "moneypuck" / "teams" / "all_teams.csv"
-CACHE = PROJECT_ROOT / "data" / "processed" / "exp_equipes_match.parquet"
+CACHE = PROJECT_ROOT / "data" / "processed" / f"exp_equipes_match{SUFFIXE}.parquet"
 FENETRE = 10  # forme récente : 10 derniers matchs
 
 TABLES_LNH = ["t_summary", "t_percentages", "t_summaryshooting", "t_outshootoutshotby"]
@@ -105,7 +128,7 @@ def charger_equipes(rafraichir: bool = False) -> pd.DataFrame:
 
     Lu depuis MySQL et MoneyPuck, puis mis en cache dans ``data/processed/``.
     """
-    bilan_f = CACHE.with_name("exp_bilan_colonnes.csv")
+    bilan_f = CACHE.with_name(f"exp_bilan_colonnes{SUFFIXE}.csv")
     if not rafraichir and CACHE.exists() and bilan_f.exists():
         return pd.read_parquet(CACHE)
     from nhl_forecast.data.db.mysql import make_engine
@@ -120,7 +143,7 @@ def charger_equipes(rafraichir: bool = False) -> pd.DataFrame:
 def bilan_colonnes() -> pd.DataFrame:
     """Nombre de colonnes numériques par source, avant et après les retraits automatiques."""
     charger_equipes()
-    return pd.read_csv(CACHE.with_name("exp_bilan_colonnes.csv"))
+    return pd.read_csv(CACHE.with_name(f"exp_bilan_colonnes{SUFFIXE}.csv"))
 
 
 def colonnes_stats(eq: pd.DataFrame) -> list[str]:

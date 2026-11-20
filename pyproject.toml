@@ -33,6 +33,7 @@ dependencies = [
     # Visualisation
     "matplotlib>=3.9",
     "seaborn>=0.13",
+    "plotly>=7.0", # figures interactives (ACP 3D)
     # Utilitaires
     "tqdm>=4.66",
     "openpyxl>=3.1",

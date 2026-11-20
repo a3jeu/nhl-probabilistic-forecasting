@@ -25,6 +25,9 @@ data/raw/**
 data/interim/**
 data/processed/**
 data/external/**
+!data/external/**/
+!data/external/**/*.csv
+!data/external/**/README.md
 !data/**/.gitkeep
 reports/map6009/**
 
